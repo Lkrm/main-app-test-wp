@@ -1,0 +1,19 @@
+{
+  "appendMainRouter": {
+    "0": {
+      "routePath": "about",
+      "componentName": "About",
+      "componentPath": "About.js"
+    },
+    "1": {
+      "routePath": "contacts",
+      "componentName": "Contacts",
+      "componentPath": "Contacts.js",
+      "exact": true
+    },
+    "2": {
+      "routePath": false,
+      "componentName": "Contacts"
+    }
+  }
+}
