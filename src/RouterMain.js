@@ -4,7 +4,7 @@ import { createBrowserHistory }  from 'history';
 import About from "./About";
 import Contacts from "./Contacts";
 import Navigation from "./Navigation";
-import Services from "../help-app-test-wp/src/Services";
+import Services from "../help-app-test-wp/Services";
 
 const history = createBrowserHistory();
 

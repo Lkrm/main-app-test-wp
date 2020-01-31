@@ -1,7 +1,7 @@
 {
   "company_name": "Wetelo Inc",
   "modules": {
-    "module-two": {
+    "help-app-test-wp": {
       "repository": "https://github.com/Lkrm/help-app-test-wp.git",
       "navigation-name": "Services",
       "navigation-link": "services"
