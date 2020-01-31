@@ -46,10 +46,8 @@ const generatorRoutsFile = (config, callback) => {
         listOfRouts+=routs;
         importComponents+=components;
     });
-    fs.writeFileSync('./src/RouterMain.js', templateRoutComponentStr(listOfRouts, importComponents), (error) => {
-        if (error) console.error('\n Error when generate routes');
-        else callback();
-    });
+    fs.writeFileSync('./src/RouterMain.js', templateRoutComponentStr(listOfRouts, importComponents));
+    callback();
 };
 
 module.exports = generatorRoutsFile;
